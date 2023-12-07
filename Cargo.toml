@@ -8,9 +8,3 @@ edition = "2021"
 [dependencies]
 leptos = { version = "0.5.2", features = ["csr", "nightly"] }
 stylers = "0.3.2"
-
-[build]
-target = "wasm32-unknown-unknown"
-
-# [target.'cfg(target_arch = "wasm32")']
-# rustflags = ["-C", "target-feature=+atomics,+bulk-memory"]
